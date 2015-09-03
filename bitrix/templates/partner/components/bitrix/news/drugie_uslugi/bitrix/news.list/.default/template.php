@@ -26,8 +26,8 @@ $this->setFrameMode(true);
             <span>Другие услуги</span>
         </div>
         <div class="col-lg-5 col-sm-8 col-xs-12 col-md-6 ">
-            <button class="btn btn-white rg active hvr-fade" id="up">Астрология для бизнеса</button>
-            <button class="btn btn-white pull-right hvr-fade" id="down">Оформление виз</button>
+            <button class="btn btn-white rg active hvr-fade hvr-fade" id="up">Астрология для бизнеса</button>
+            <button class="btn btn-white pull-right hvr-fade hvr-fade" id="down">Оформление виз</button>
         </div>
     </div>
     <div class="up">

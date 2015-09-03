@@ -38,7 +38,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                         </div>
 
                         <div class="error2"></div>
-                        <button type="submit" class="btn btn-lazur center">Отправить</button>
+                        <button type="submit" class="btn btn-lazur center hvr-fade-red">Отправить</button>
                     </form>
                 </div>
                 <div class="clearfix"></div>
@@ -70,7 +70,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                             <textarea class="form-control" name="message" placeholder="Ваш вопрос"></textarea>
                         </div>
                         <div class="error"></div>
-                        <button type="submit" class="btn btn-lazur center" style="background-color: #9e0714;border-color: #6c000a">Отправить</button>
+                        <button type="submit" class="btn btn-lazur center hvr-fade-red" style="background-color: #9e0714;border-color: #6c000a">Отправить</button>
                     </form>
                 </div>
                 <div class="clearfix"></div>
@@ -154,4 +154,5 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
 
 <!--меню-->
 	
-						
+	<div class="page">
+

@@ -89,9 +89,7 @@ $this->setFrameMode(true);
                 <?if($arParams["DISPLAY_NAME"]!="N" && $arResult["NAME"]):?>
                     <h4><?=$arResult["NAME"]?></h4>
                 <?endif;?>
-                <?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arResult["FIELDS"]["PREVIEW_TEXT"]):?>
-                    <p><?=$arResult["FIELDS"]["PREVIEW_TEXT"];unset($arResult["FIELDS"]["PREVIEW_TEXT"]);?></p>
-                <?endif;?>
+
                 <?if($arResult["NAV_RESULT"]):?>
                     <?if($arParams["DISPLAY_TOP_PAGER"]):?><?=$arResult["NAV_STRING"]?><br /><?endif;?>
                     <?echo $arResult["NAV_TEXT"];?>

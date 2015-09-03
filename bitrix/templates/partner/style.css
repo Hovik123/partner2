@@ -72,6 +72,7 @@ body{
     background-color: #2098d1;
     color: white;
 }
+
 .hvr-fade-green {
     display: inline-block;
     vertical-align: middle;
@@ -157,7 +158,9 @@ header {
 .red_btn{
     border: none;
 }
-
+.page{
+    min-height: 43vh;
+}
 .banners span {
     font-size: 43px;
     font-weight: 100;
@@ -383,6 +386,17 @@ font-size: 15px !important;
     text-transform: uppercase;
     min-width: 180px;
     border-bottom: 2px solid #005a96;
+    font-family: RobotoBold;
+    border-right: none;
+    border-left: none;
+    border-top:none;
+}
+.btn-lazur-red {
+    background-color: #9d0513;
+    color: #fff !important;
+    text-transform: uppercase;
+    min-width: 180px;
+    border-bottom: 2px solid #6c000a;
     font-family: RobotoBold;
     border-right: none;
     border-left: none;
