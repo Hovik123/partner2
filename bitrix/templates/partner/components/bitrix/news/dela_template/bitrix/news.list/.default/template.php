@@ -47,7 +47,7 @@ $this->setFrameMode(true);
         </span>
             <? if ($arParams["DISPLAY_DATE"] != "N" && $arItem["DISPLAY_ACTIVE_FROM"]): ?>
 
-                <span class="time_clock"><? echo $arItem["DISPLAY_ACTIVE_FROM"] ?><i class="fa fa-clock-o"></i></span>
+                <span class="time_clock"><i class="fa fa-clock-o"></i> <? echo $arItem["DISPLAY_ACTIVE_FROM"] ?></span>
             <? endif ?>
 
             <hr>

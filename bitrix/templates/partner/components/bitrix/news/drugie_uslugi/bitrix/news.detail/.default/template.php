@@ -16,13 +16,13 @@ $this->setFrameMode(true);
         <ul class="breadcrumb">
             <li><a href="/">Главная</a></li>
             <li><a href="/drugie-uslugi"> Другие услуги</a></li>
-            <li class="active"><?=$arResult["NAME"]?></li>
+            <li class="active"><div class="bredcrumbs_active"><?=$arResult["NAME"]?></div></li>
         </ul>
     </div>
 
     <hr class="newshr">
-        <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 uslugi">
-            <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+        <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 uslugi padding-left-none">
+            <div class="col-lg-3 col-sm-3 col-xs-12 col-md-3 padding-left-none">
                 <?$APPLICATION->IncludeComponent(
                     "bitrix:news.list",
                     "yuruslugi_list",
@@ -82,7 +82,7 @@ $this->setFrameMode(true);
                 );?>
 
             </div>
-            <div class="col-lg-8 col-sm-8 col-xs-12 col-md-8">
+            <div class="col-lg-9 col-sm-9 col-xs-12 col-md-9">
                 <img
                     src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>"
                     width="<?=$arResult["DETAIL_PICTURE"]["WIDTH"]?>"

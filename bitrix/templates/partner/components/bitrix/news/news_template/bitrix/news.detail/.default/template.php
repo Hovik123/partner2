@@ -17,7 +17,7 @@ $this->setFrameMode(true);
         <ul class="breadcrumb">
             <li><a href="/">Главная</a></li>
             <li><a href="/novosti"> Новости</a></li>
-            <li class="active"><?=$arResult["NAME"]?></li>
+            <li class="active"><div class="bredcrumbs_active"><?=$arResult["NAME"]?></div></li>
         </ul>
     </div>
     <hr class="newshr">

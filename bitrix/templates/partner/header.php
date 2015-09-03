@@ -91,9 +91,9 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
 					<span class="phone_number">+7(495)960-87-45</span>
 				</div>
             <div class="col-lg-3 col-lg-offset-1 col-md-offset-1 col-xs-offset-0 col-sm-offset-0 col-sm-12 col-md-3 col-xs-12 logo">
-                <h1 style="color: #017fba;">Partner</h1>
-                <!--<img alt="Brand" class="img-responsive" width="50" height="50"
-					 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC">-->
+               <a href="/"> <img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="partner logo"></a>
+
+
             </div>
 				<div class="col-lg-3  pull-right col-xs-12 col-md-3 col-sm-12 seccond_number">
 					<span class="phone_label">Главный юрисконсульт:</span>
@@ -109,9 +109,8 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
         <div class="container ">
             <div class="row">
                 <div class="col-lg-3 col-sm-2 col-md-3 col-xs-12 logo">
-                    <h1 style="color: #017fba;">Partner</h1>
-                    <!--<img alt="Brand" class="img-responsive" width="50" height="50"
-                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC">-->
+                    <a href="/"> <img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="partner logo"></a>
+
                 </div>
                 <div class="col-lg-6 col-xs-12 col-md-6 col-sm-7 ">
                     <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6">
@@ -124,7 +123,7 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
                     </div>
                 </div>
                 <div class="col-lg-3 col-xs-12 col-md-3 col-sm-3 ">
-                    <button class="btn btn-danger red_btn" data-toggle="modal" data-target="#myModal2">Бесплатная консультация</button>
+                    <button class="btn btn-danger red_btn hvr-fade-red" data-toggle="modal" data-target="#myModal2">Бесплатная консультация</button>
                 </div>
             </div>
         </div>

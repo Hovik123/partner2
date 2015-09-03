@@ -19,6 +19,9 @@
     font-style: normal;
     font-weight: normal;
 }
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .padding_left_right_none {
     padding-left: 0;
     padding-right: 0;
@@ -36,14 +39,98 @@
     font-style: normal;
     font-size: 31px;
     color: #4b4b4b;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  
 }
+.navbar-default {
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+    background-color: #20465d;
+    color: white;
+}
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: #2098d1;
+    color: white;
+}
+.hvr-fade-green {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.hvr-fade-green:hover, .hvr-fade-green:focus, .hvr-fade-green:active {
+    background-color: #055C6B;
+    color: white;
+}
+.hvr-fade-red {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.hvr-fade-red:hover, .hvr-fade-red:focus, .hvr-fade-red:active {
+    background-color: #c9302c;
+    color: white;
+}
+.hvr-fade-white {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
 .phone_number {
     display: block;
     color: #4b4b4b;
-    font-size: 30px;
-    font-family: 'Calibri';
+    font-size: 27px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
 }
 
@@ -75,7 +162,7 @@ header {
     font-size: 43px;
     font-weight: 100;
     color: #fff;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
     letter-spacing: 2px;
 }
@@ -83,10 +170,12 @@ header {
 .banner-span {
     display: block;
     text-align: right;
-    font-size: 14px !important;
+    font-size: 13px !important;
     letter-spacing: 0 !important;
 }
-
+.detail-news h4{
+    text-transform: uppercase;
+}
 .navbar-nav > li > a {
     padding-top: 22.5px;
     padding-bottom: 22.5px;
@@ -177,8 +266,8 @@ font-size: 15px !important;
     border-radius: 4px;
     padding-left: 30px;
     padding-right: 30px;
-    font-family: 'Calibri';
-    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
@@ -258,6 +347,7 @@ font-size: 15px !important;
        padding-bottom: 32px;
        display: block;
        font-family: Calibri Regular;
+       clear: both;
    }
 .margin_right_none {
     margin-right: 0!important;
@@ -306,7 +396,7 @@ font-size: 15px !important;
     padding-right: 15px;
     border-radius: 5px;
     font-size: 100%;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
      text-transform: uppercase;
 }
 .btn-archiv:hover{
@@ -360,7 +450,7 @@ font-size: 15px !important;
 
 .title-del {
     color: #4b4b4b;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 43px;
     font-weight: 200;
     text-align: center;
@@ -388,15 +478,15 @@ font-size: 15px !important;
     max-height: 170px;
 }
 .del-item > .text > .news_title{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 200;
     color: #1e79be;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 .del-item > .text > .time_clock{
     color: #a3a3a3;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     font-weight: 200;
     margin-top: 0;
@@ -432,7 +522,7 @@ color: #c0c0c0;
     padding-right: 15px;
     border-radius: 5px;
     font-size: 100%;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 .news_block{
@@ -503,7 +593,7 @@ padding-top: 40px;
     display: block;
     color: #4b4b4b;
     text-align: center;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
     font-size: 36px;
 
@@ -514,13 +604,13 @@ padding-top: 40px;
     margin-top: 10px;
     font-size: 15px;
     color: #737373;
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .news_text{
     display: block;
     text-align: justify;
     margin-top: 30px;
-font-family: 'Calibri';
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -538,6 +628,9 @@ font-family: 'Calibri';
 }
 .breadcrumb li a{
     color: #017fba;
+}
+.breadcrumb > li{
+    float: left;
 }
 .newshr{
     margin:10px 0;
@@ -725,7 +818,10 @@ font-family: 'Calibri';
 .ur-uslugi li a, .fiz-uslugi li a{
     font-size: 16px;
     color: #3b3b3b;
-    font-family: Calibri Regular;
+
+}
+.padding-left-none{
+    padding-left: 0;
 }
 .uslugi img{
     float:left;
@@ -792,7 +888,7 @@ font-family: 'Calibri';
 .table-bordered > tbody > tr > td{
     color: #303030;
     font-size: 16px;
-    font-family: Calibri;
+
      text-transform: uppercase;
      font-weight: bold;
 }
@@ -849,7 +945,7 @@ a{
     text-transform: uppercase;
 }
 .text_call{
-    font-family: 'Calibri';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     color: #737373;
     text-align: center;
@@ -863,4 +959,11 @@ a{
 }
 #consultation_form textarea{
     min-height: 125px;
+}
+.bredcrumbs_active{
+    display: block;
+    text-align: center;
+    float: right;
+    word-break: break-all;
+
 }

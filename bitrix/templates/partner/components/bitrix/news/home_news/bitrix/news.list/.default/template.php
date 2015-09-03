@@ -16,10 +16,10 @@ $this->setFrameMode(true);
 <div class="row">
 <ul class="nav nav-tabs nav-tabs-news" role="tablist">
 	<li role="presentation" class="active"><a href="#news" aria-controls="news" role="tab"
-											  data-toggle="tab">Новости</a></li>
-	<li role="presentation"><a href="#sovet" aria-controls="sovet" role="tab" data-toggle="tab">Советы
+											  data-toggle="tab" class="hvr-fade">Новости</a></li>
+	<li role="presentation"><a href="#sovet" aria-controls="sovet" role="tab" class="hvr-fade" data-toggle="tab">Советы
 			специалистов</a></li>
-	<li role="presentation"><a href="#umniesoveti" aria-controls="umniesoveti" role="tab" data-toggle="tab">умные
+	<li role="presentation"><a href="#umniesoveti" aria-controls="umniesoveti" class="hvr-fade" role="tab" data-toggle="tab">умные
 			цитаты</a></li>
 </ul>
 
@@ -63,8 +63,10 @@ $this->setFrameMode(true);
 				</div>
 
 
-			<?php }?>
-				<?php $i++;
+			<?php
+					$i++;
+				}?>
+				<?php
 				if($i==3){
 					break;
 				}
@@ -105,8 +107,10 @@ $this->setFrameMode(true);
 						</div>
 
 
-				<?php }?>
-				<?php $i++;
+				<?php
+							$i++;
+						}?>
+				<?php
 				if($i==3){
 					break;
 				}
@@ -147,8 +151,10 @@ $this->setFrameMode(true);
 						</div>
 
 
-				<?php }?>
-				<?php $i++;
+				<?php
+						$i++;
+					}?>
+				<?php
 				if($i==3){
 					break;
 				}

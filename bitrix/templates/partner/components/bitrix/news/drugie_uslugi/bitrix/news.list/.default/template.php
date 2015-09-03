@@ -26,8 +26,8 @@ $this->setFrameMode(true);
             <span>Другие услуги</span>
         </div>
         <div class="col-lg-5 col-sm-8 col-xs-12 col-md-6 ">
-            <button class="btn btn-white rg active" id="up">Астрология для бизнеса</button>
-            <button class="btn btn-white pull-right" id="down">Оформление виз</button>
+            <button class="btn btn-white rg active hvr-fade" id="up">Астрология для бизнеса</button>
+            <button class="btn btn-white pull-right hvr-fade" id="down">Оформление виз</button>
         </div>
     </div>
     <div class="up">
@@ -37,7 +37,7 @@ $this->setFrameMode(true);
             <p>Организация любой деятельности — коммерческой, бюджетной или <br>некоммерческой — невозможна без юридического сопровождения.</p>
         </div>
         <div class="col-lg-3 col-sm-3 col-xs-12 col-md-3">
-            <a href="/stoimost/#servicess_price_3">  <button class="btn btn-lazur-bold pull-right">Узнать стоимость услуг</button></a>
+            <a href="/stoimost/#servicess_price_3">  <button class="btn btn-lazur-bold pull-right hvr-fade-green">Узнать стоимость услуг</button></a>
         </div>
     </div>
 
@@ -87,7 +87,7 @@ $this->setFrameMode(true);
             <p>По любым вопросам, от налоговых консультаций до представления интересов организации в различных <br>инстанциях, каждый клиент может получить грамотную, квалифицированную и своевременную помощь.</p>
         </div>
         <div class="col-lg-3 col-sm-3 col-xs-12 col-md-3">
-            <a href="/stoimost/#servicess_price_4"> <button class="btn btn-lazur-bold pull-right">Узнать стоимость услуг</button></a>
+            <a href="/stoimost/#servicess_price_4"> <button class="btn btn-lazur-bold pull-right hvr-fade-green">Узнать стоимость услуг</button></a>
         </div>
     </div>
     <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
