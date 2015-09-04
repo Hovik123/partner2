@@ -21,7 +21,7 @@ $APPLICATION->SetTitle("");
     <h4>Бухгалтерия:</h4>
     <i>+7(495)721-03-94</i>
 </div>
-<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3">
+<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3" style="margin-top: 10px">
     <h4>Электронная почта:</h4>
     <i>info@partners.ru</i>
 </div>

@@ -86,16 +86,14 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
 		<div class="row">
 
 
-				<div class="col-lg-4 col-xs-12 col-md-4 col-sm-12">
+				<div class="col-lg-4 col-xs-12 col-md-4 col-sm-12" style="margin-top: 25px">
 					<span class="phone_label">Генеральный директор:</span>
 					<span class="phone_number">+7(495)960-87-45</span>
 				</div>
             <div class="col-lg-3 col-lg-offset-1 col-md-offset-1 col-xs-offset-0 col-sm-offset-0 col-sm-12 col-md-3 col-xs-12 logo">
                <a href="/"> <img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="partner logo"></a>
-
-
             </div>
-				<div class="col-lg-3  pull-right col-xs-12 col-md-3 col-sm-12 seccond_number">
+				<div class="col-lg-3  pull-right col-xs-12 col-md-3 col-sm-12 seccond_number" style="margin-top: 25px">
 					<span class="phone_label">Главный юрисконсульт:</span>
 					<span class="phone_number">+7(929)996-67-04</span>
 				</div>
@@ -112,7 +110,7 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
                     <a href="/"> <img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="partner logo"></a>
 
                 </div>
-                <div class="col-lg-6 col-xs-12 col-md-6 col-sm-7 ">
+                <div class="col-lg-6 col-xs-12 col-md-6 col-sm-7 " style="margin-top: 37px">
                     <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6">
                         <span class="phone_label">Генеральный директор:</span>
                         <span class="phone_number">+7(495)960-87-45</span>
@@ -122,7 +120,7 @@ if ($APPLICATION->GetCurPage(true) == "/index.php"){?>
                         <span class="phone_number">+7(929)996-67-04</span>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xs-12 col-md-3 col-sm-3 ">
+                <div class="col-lg-3 col-xs-12 col-md-3 col-sm-3 " style="margin-top: 37px">
                     <button class="btn btn-danger red_btn hvr-fade-red" data-toggle="modal" data-target="#myModal2">Бесплатная консультация</button>
                 </div>
             </div>

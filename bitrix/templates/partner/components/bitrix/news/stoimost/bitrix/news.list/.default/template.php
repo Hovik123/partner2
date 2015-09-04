@@ -42,7 +42,7 @@ $array_list = [];
             <div id="servicess_price_<?php echo $link;
             $link++;
             ?>"></div>
-            <h2 id="<?= $this->GetEditAreaId($arItem['ID']); ?>"><?= $arItem['PROPERTIES']['servicess_type']['VALUE'] ?></h2>
+            <h2 class="stoimost-uslug-title" id="<?= $this->GetEditAreaId($arItem['ID']); ?>"><?= $arItem['PROPERTIES']['servicess_type']['VALUE'] ?></h2>
             <p><?= $arItem['PROPERTIES']['servicess_desc']['VALUE'] ?></p>
 
 

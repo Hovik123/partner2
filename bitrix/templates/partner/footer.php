@@ -34,12 +34,12 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 <script>
 	function initMap() {
 		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 12,
-			center: {lat: 55.7038, lng: 37.58}
+			zoom: 16,
+			center: {lat: 55.7966956, lng: 37.4895393}
 		});
 		var image = '/bitrix/templates/partner/img/beachflag.png';
 		var beachMarker = new google.maps.Marker({
-			position: {lat: 55.7039036, lng: 37.65484100000003},
+			position: {lat: 55.798673, lng: 37.495643},
 			map: map,
 			icon: image
 		});

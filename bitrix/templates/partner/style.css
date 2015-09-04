@@ -37,7 +37,7 @@ body{
 }
 .contacts i{
     font-style: normal;
-    font-size: 31px;
+    font-size: 25px;
     color: #4b4b4b;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  
@@ -225,7 +225,7 @@ font-size: 15px !important;
 }
 .transparent_btn:hover{
     background-color: #fff;
-    border: none;
+    border: 1px solid #fff;
     color: #017fba;
 }
 
@@ -858,13 +858,13 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top:40px;
     text-align: center;
     background-color: #f4f4f4;
-    font-family: Calibri;
+
    
 }
 .footer a{
     color: #6f6f6f;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 .footer ul{
     margin:10px 0;
@@ -911,13 +911,14 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #303030;
     font-size: 14px;
      text-transform: uppercase;
-     font-weight: bold;
+     font-weight: 500;
 }
 .stoimost-title{
     display:block ;
     text-transform: uppercase;
     color: #01839d;
     font-size: 33px;
+    font-family: Calibri Light;
 }
 .stoimost tr:nth-of-type(even){
     background-color: #f1f1f1;
@@ -927,6 +928,9 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: right;
     margin:20px 0;
     display: block;
+}
+.stoimost-uslug-title{
+    font-size: 20px!important;
 }
 #panel h3{
     float:left;

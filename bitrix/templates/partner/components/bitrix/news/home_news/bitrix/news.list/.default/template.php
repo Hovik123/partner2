@@ -23,7 +23,7 @@ $this->setFrameMode(true);
 			цитаты</a></li>
 </ul>
 
-<a class="btn pull-right btn-archiv" href="./novosti">Архив новостей</a>
+<a class="btn pull-right btn-archiv hvr-fade"  href="./novosti">Архив новостей</a>
 
 <!-- Tab panes -->
 </div>

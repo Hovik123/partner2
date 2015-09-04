@@ -25,8 +25,8 @@ $APPLICATION->SetTitle("");
         var directionsDisplay = new google.maps.DirectionsRenderer;
         var directionsService = new google.maps.DirectionsService;
         var map = new google.maps.Map(document.getElementById('mapg'), {
-            zoom: 19,
-            center: {lat: 55.7966986, lng: 37.4915241}
+            zoom: 7,
+            center: {lat: 55.798673, lng: 37.495643}
         });
         directionsDisplay.setMap(map);
         calculateAndDisplayRoute(directionsService, directionsDisplay);
@@ -37,8 +37,8 @@ $APPLICATION->SetTitle("");
     function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         var selectedMode = document.getElementById('mode').value;
         directionsService.route({
-            origin: {lat: 55.7966986, lng: 37.4915241},  // Haight.
-            destination: {lat: 37.495643, lng:55.798673},  // Ocean Beach.
+            destination : {lat: 55.798673, lng: 37.495643},  // Haight.
+            origin : {lat: 55.7953935, lng:37.4906495},  // Ocean Beach.
             // Note that Javascript allows us to access the constant
             // using square brackets and a string value as its
             // "property."

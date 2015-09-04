@@ -12,7 +12,7 @@ $APPLICATION->SetTitle("Контакты");
         <hr class="newshr">
         <div class="row">
             <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 contacts">
-                <?$APPLICATION->IncludeComponent(
+                <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
                     Array(
@@ -22,35 +22,23 @@ $APPLICATION->SetTitle("Контакты");
                         "EDIT_TEMPLATE" => "standard.php",
                         "PATH" => "/include/contact_inc.php"
                     )
-                );?>
-
-
+                ); ?>
             </div>
-
-
         </div>
         <div class="form_contacts">
-            <form  class="form_name" id="ajaxform">
+            <form class="form_name" id="ajaxform">
                 <h6>Форма обратной связи</h6>
-
-                <p>После заполнения всех полей формы и отправки сообщения, консультант свяжется с вами для разрешения возникших вопросов.</p>
+                <p>После заполнения всех полей формы и отправки сообщения, консультант свяжется с вами для разрешения
+                    возникших вопросов.</p>
                 <input type="text" name="name" maxlength="36" placeholder="Ваше имя">
                 <input type="text" name="email" maxlength="36" placeholder="Ваша почта">
                 <textarea placeholder="Ваше сообщения"></textarea>
                 <div class="error"></div>
                 <button id="send_messages" class="btn btn-lazur hvr-fade pull-right" type="submit">Отправить</button>
             </form>
-
         </div>
-
-
         <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 padding_left_right_none">
-            <div id="map">
-
-            </div>
+            <div id="map"></div>
         </div>
-
-
     </div>
-
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
