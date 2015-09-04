@@ -801,9 +801,10 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 15px;
  }
 .form_name h6{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
       color: #017fba;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 .uruslugi-list h2, .stoimost h2{
     color: #303030;
