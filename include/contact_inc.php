@@ -1,10 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("");
-?>НАШИ КОНТАКТЫ
+?>
+<h4 class="contact-title">НАШИ КОНТАКТЫ</h4>
 <h3>Контактные телефоны</h3>
 <div class="row">
-<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3 padding_left_right_none">
+<div class="col-lg-3 col-sm-3 col-xs-3 col-md-3">
     <h4>Генеральный директор:</h4>
     <i>+7(495)960-87-45</i>
 </div>
@@ -42,7 +43,7 @@ $APPLICATION->SetTitle("");
         <a class="btn btn-lazur-bold" href="../fullscrinemap.php" target="_blank">Интерактивная карта проезда</a>
     </div>
     <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
-        <img src="/bitrix/templates/partner/img/adress.jpg" class="adress img-responsive">
+        <img src="<?=SITE_TEMPLATE_PATH?>/img/adress.jpg" class="adress img-responsive">
     </div>
 </div>
 <br>

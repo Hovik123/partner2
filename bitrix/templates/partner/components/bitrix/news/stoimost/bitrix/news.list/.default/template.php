@@ -23,8 +23,8 @@ $array_list = [];
     ?>
 <? endforeach; ?>
 <?php $array_list = array_count_values($array_list); ?>
-<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 news-list stoimost">
-    <span>Стоимость наших услуг</span>
+<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 stoimost">
+    <span class="stoimost-title">Стоимость наших услуг</span>
     <?php $link=1;?>
     <? foreach ($arResult["ITEMS"] as $arItem): ?>
         <?

@@ -25,11 +25,20 @@ $this->setFrameMode(true);
     <div class="row">
         <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 news-list">
             <span>Успешные дела</span>
+            <?php $date_array_list=[];?>
+            <? foreach ($arResult["ITEMS"] as $arItem): ?>
+                <?
+                $item=mb_substr($arItem["DISPLAY_ACTIVE_FROM"],6);
+                array_push($date_array_list,$item);
+                ?>
+
+            <? endforeach; ?>
+            <?php $date_array_list=array_unique($date_array_list);?>
             <ul class="nav archiv" id="filter_god">
                 <li>Архив:</li>
-                <li><a href="#">2016</a></li>
-                <li><a href="#" class="active">2015</a></li>
-                <li><a href="#">2014</a></li>
+                <?php foreach($date_array_list as $item){?>
+                    <li><a href="#"><?php echo $item;?></a></li>
+                <?php }?>
             </ul>
             <? foreach ($arResult["ITEMS"] as $arItem): ?>
                 <?

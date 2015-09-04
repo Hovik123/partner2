@@ -8,9 +8,11 @@ $APPLICATION->SetTitle("Главная");
             <div class="col-lg-6 col-sm-6 col-xs-12 col-md-6 hidden-xs hidden-sm men">
                 <img class="img-responsive" src="/bitrix/templates/partner/img/men.png">
             </div>
-            <h3 class="col-lg-6 col-sm-6 col-xs-12 col-md-6 banners padding_left_right_none"><span
-                    class="banner-span pull-right">Организация любой деятельности — коммерческой, бюджетной или некоммерческой —<br>
-			 невозможна без юридического сопровождения.</span></h3>
+            <h3 class="col-lg-6 col-sm-6 col-xs-12 col-md-6 banners padding_left_right_none">
+
+                <span class="banner-span pull-right">Организация любой деятельности — коммерческой, бюджетной или некоммерческой —<br>
+			 невозможна без юридического сопровождения.</span>
+            </h3>
 
             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 pull-right padding_left_right_none buttons">
                 <div class="col-lg-6 col-sm-12 col-xs-12 col-md-6 padding_left_none button">

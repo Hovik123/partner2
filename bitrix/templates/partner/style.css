@@ -72,6 +72,13 @@ body{
     background-color: #2098d1;
     color: white;
 }
+.contact-title{
+    margin-top: 20px!important;
+    font-weight: 100!important;
+    color: #01839d!important;
+    font-family: Calibri Light;
+    font-size: 33px!important;
+}
 
 .hvr-fade-green {
     display: inline-block;
@@ -176,9 +183,7 @@ header {
     font-size: 13px !important;
     letter-spacing: 0 !important;
 }
-.detail-news h4{
-    text-transform: uppercase;
-}
+
 .navbar-nav > li > a {
     padding-top: 22.5px;
     padding-bottom: 22.5px;
@@ -401,6 +406,9 @@ font-size: 15px !important;
     border-right: none;
     border-left: none;
     border-top:none;
+}
+.stoimost{
+
 }
 .btn-archiv{
        color: #c0c0c0;
@@ -901,10 +909,15 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .table-bordered > tbody > tr > td{
     color: #303030;
-    font-size: 16px;
-
+    font-size: 14px;
      text-transform: uppercase;
      font-weight: bold;
+}
+.stoimost-title{
+    display:block ;
+    text-transform: uppercase;
+    color: #01839d;
+    font-size: 33px;
 }
 .stoimost tr:nth-of-type(even){
     background-color: #f1f1f1;

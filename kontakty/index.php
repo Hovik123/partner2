@@ -33,13 +33,12 @@ $APPLICATION->SetTitle("Контакты");
             <form  class="form_name" id="ajaxform">
                 <h6>Форма обратной связи</h6>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+                <p>После заполнения всех полей формы и отправки сообщения, консультант свяжется с вами для разрешения возникших вопросов.</p>
                 <input type="text" name="name" maxlength="36" placeholder="Ваше имя">
                 <input type="text" name="email" maxlength="36" placeholder="Ваша почта">
                 <textarea placeholder="Ваше сообщения"></textarea>
                 <div class="error"></div>
-                <button id="send_messages" class="btn btn-primary pull-right" type="submit">Отправить</button>
+                <button id="send_messages" class="btn btn-lazur hvr-fade pull-right" type="submit">Отправить</button>
             </form>
 
         </div>
