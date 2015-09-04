@@ -9,7 +9,7 @@ $APPLICATION->SetTitle("Главная");
                 <img class="img-responsive" src="/bitrix/templates/partner/img/men.png">
             </div>
             <h3 class="col-lg-6 col-sm-6 col-xs-12 col-md-6 banners padding_left_right_none">
-
+                <span>Мы работаем -Вы отдыхаете</span>
                 <span class="banner-span pull-right">Организация любой деятельности — коммерческой, бюджетной или некоммерческой —<br>
 			 невозможна без юридического сопровождения.</span>
             </h3>
